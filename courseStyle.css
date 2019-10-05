@@ -1,0 +1,312 @@
+*,html, body{
+    margin: 0px;  
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.mainHeader{
+    padding: 20px;
+    background-image: url(http://www.twitrcovers.com/wp-content/uploads/2013/04/Abstract-Black-Dark-l.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    color: white;
+}
+.mainHeader nav{
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+   top:10%;
+   left: 10%;
+}
+.mainHeader nav>a{
+    font-weight: 2em;
+    font-size: 1.8em;
+}
+.mainHeader a{
+    text-decoration: none;
+    color: white;
+}
+.mainHeader nav ul{
+    list-style: none;
+    padding: 5px 0px;
+}
+.mainHeader nav ul li>a{
+    color: lightgray;
+}
+.mainHeader nav ul li>a:hover{
+    /* text-decoration: underline; */
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: auto;
+}
+.mainHeader nav ul li a{
+    padding: 10px 20px ;
+    font-size: larger;
+}
+.mainHeader nav li, .mainHeader nav>a{
+    float: left;
+}
+.mainHeader nav .menu{
+    margin-left: 26%;
+    width: auto;
+    height: 100%;
+}
+.menu button{
+    margin-left: 20%;
+    border: none;
+    background: #82c420;
+    padding: 8px 15px;
+    border-radius: 50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+}
+.logoHeader{
+   clear: both;
+   text-align: center;
+   margin:auto;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform:translate(-50%,-50%) ;
+   -webkit-transform:translate(-50%,-50%) ;
+   -moz-transform:translate(-50%,-50%) ;
+   -ms-transform:translate(-50%,-50%) ;
+   -o-transform:translate(-50%,-50%) ;
+}
+.logoHeader h1{
+    margin: 25px;
+}
+.logoHeader p{
+    color: rgb(179, 179, 179);
+}
+main{
+    margin: 3% 10%; 
+}
+.course{
+    float: left;
+    width: 60%;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+.course h2,p{
+    margin:10px 0px;
+}
+.spanP{
+    color: darkgrey;
+}
+.course .para{
+    margin:20px 0px;
+    color: darkgrey;
+}
+.course img{
+    width: 45%;
+    margin-right: 2%;
+}
+.course .addmissionBtn{
+    border: none;
+    color: white;
+    background: #82c420;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.instructor{
+    width: 20%;
+    padding:30px 5%;
+    margin: 15px 4%;
+    float: left;
+    text-align: center;
+    line-height: 1.5em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+ 
+.instructor h3:first-child{
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    line-height: 2em;
+}
+.instructor img{
+    width: 80%;
+    margin: 2%;
+}
+.instructor p{
+    color: grey;
+}
+.comments{
+    clear: both;
+    width: 60%;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+.allComments>h2{
+margin:10px;
+}
+.comments img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.data1{
+    width: 15%;
+}
+.data2{
+    width: 45;
+}
+.data2 time{
+    font-size: smaller;
+}
+.data2 p{
+    color: grey;
+}
+.commContent p{
+    margin-top: 0px;
+}
+.data2 button{
+    border: none;
+    color: black;
+    background: lightgray;
+    padding: 8px 10px;
+    
+}
+table{
+    margin: 40px 0px;
+}
+.nestedReply1{
+    margin-left: 10%;
+}
+.nestedReply2{
+    margin-left: 20%;
+}
+.nestedReply3{
+    margin-left: 30%;
+}
+.addComment{
+    margin-top: 50px;
+    width: 60%;
+}
+.addCommForm{
+    background: rgba(197, 238, 255,.1);
+    padding: 50px;
+    width: 100%;
+}
+.formInput{
+    width: 100%;
+    height: 30px;
+}
+.formLabel{
+    color: grey;
+}
+.formText{
+    width: 100%;
+    height: 150px;
+}
+.postComment{
+    border: none;
+    color: white;
+    background: #82c420;
+    padding: 10px 15px;
+    margin: 20px 0px 100px;
+}
+.allMoreCourses{
+    height: 800px;
+}
+.moreCourses{
+    width: 100%;
+    background: rgb(26, 26, 34);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    color: white;
+    position: relative;
+    
+}
+.moreCourses h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+}
+.moreCourses .otherCourses{
+    width: 80%;
+    margin: 10% 10%;
+    position: absolute;
+    top: 60px;
+}
+.moreCourses .courseSection{
+    float: left;   
+    width: 30%;  
+    margin: 0% 1%; 
+    border: none;
+    box-shadow: 2px 2px 2px 1px lightgrey; 
+}
+
+.courseSection img{
+    width: 100%;
+}
+.courseSection .summary{
+    padding: 20px;
+    color: darkgrey;
+}
+.courseSection .summary a{
+    padding: 20px;
+    text-decoration: none;
+}
+.pages{
+    clear: both;
+    text-align: center;
+}
+.pre{
+    margin: 20px 5px;
+    padding: 10px 25px;
+}
+.foo{
+    width: 100%;
+    background: rgba(197, 238, 255,.3);    
+    padding: 70px;
+    height: 250px;
+}
+.aboutFooter ,.subscribeFooter{
+    float: left;
+    width: 30%;
+    margin: 0px 0px 0px 20px;
+}
+.linkFooter {
+    float: left;
+    width: 20%;
+    margin: 0px 0px 0px 50px;
+}
+.linkFooter li{
+    list-style: none;
+}
+.linkFooter li a{
+    text-decoration: none;
+}
+.emailInput{
+    padding: 8px;
+}
+.copyright{
+    clear: both;
+    text-align: center;
+}
